@@ -181,7 +181,7 @@ The processors that relate to ILDAnalysis can be found [https://github.com/ILDAn
 ## How to create a new Marlin processor
    The most easy way to create a new Marlin processor is copying an example processor, instead of rewritting all of them. You can do this by
 
-   ` ./copy_new_processor.sh  new_processor_name`
+   `$MARLIN/examples/copy_new_Processor.sh $MARLIN/examples/mymarlin  new_processor_name`
 
    This script can be decomposed by following steps:
 
@@ -207,7 +207,7 @@ The processors that relate to ILDAnalysis can be found [https://github.com/ILDAn
 
 
    The copy_new_processor.sh script can also be used for copy any other exist processor to a new one by
-   ` ./copy_new_processor.sh  old_processor_directory   new_processor_name`
+   ` $MARLIN/examples/copy_new_processor.sh  old_processor_directory   new_processor_name`
    
 
 
